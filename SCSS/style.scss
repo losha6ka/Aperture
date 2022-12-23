@@ -115,12 +115,14 @@ body.lock{
 	// .header__logo
 
 	&__logo {
+		position: relative;
+		z-index: 2222;
 		animation: 1s text forwards;
 		opacity: 0;
 		transform: translatey(-20px);
 		& img{
 			position: relative;
-			z-index: 222;
+			z-index: 2222;
 			@media (max-width:768.98px){
 				max-width: 120px;
 			}

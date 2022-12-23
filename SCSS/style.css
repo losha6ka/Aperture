@@ -81,6 +81,8 @@ body {
   }
 }
 .header__logo {
+  position: relative;
+  z-index: 2222;
   -webkit-animation: 1s text forwards;
           animation: 1s text forwards;
   opacity: 0;
@@ -88,7 +90,7 @@ body {
 }
 .header__logo img {
   position: relative;
-  z-index: 222;
+  z-index: 2222;
 }
 @media (max-width: 768.98px) {
   .header__logo img {
